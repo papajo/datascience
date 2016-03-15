@@ -77,3 +77,8 @@ viewsData
 #There are some clear peaks…
 #Given that we’re looking at the page about “Friday”, 
 #what might this be due to?
+#--------------------------------------------------------
+# Refer to the the script generateURLs.R in the same directory
+#--------------------------------------------------------
+
+
