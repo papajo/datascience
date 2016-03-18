@@ -27,3 +27,10 @@ sum(trendsData2012$X2013)
 sum(trendsData2012$X2011)
 #In the same way, we can work out the total volume of searches for “2011” in 2012:
 sum(trendsData2012$X2013) / sum(trendsData2012$X2011)
+
+mySubstring <- substring("FutureLearn", first=6, last=8)
+
+##
+allFileNames <- list.files('Trends')
+#extract country codes
+substring(allFileNames, first=1, last=2)
